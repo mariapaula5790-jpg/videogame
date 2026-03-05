@@ -1,0 +1,24 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: quicksand, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color:#696B69;
+    background-color: #F9F3DE;
+}
+
+h1, h2, .logo{
+    font-family: Fredoka, sans-serif;
+    font-weight: 500;
+    color: #8F4818;
+} 
+
+a {
+    text-decoration: none;
+    color:#8F4818;
+}
