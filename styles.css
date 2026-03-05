@@ -61,3 +61,23 @@ a {
 .main-nav a{
     font-weight: 800;
 }
+
+#hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://www.tapblaze.com/images/slider/good-coffee-great-coffee.jpg');
+    background-size: cover;
+    background-position: center;
+    color:#FFFBF1;
+    padding: 220px 0;
+    text-align:center;
+}
+
+#hero h1{
+    color: #FFFBF1;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+#hero p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
