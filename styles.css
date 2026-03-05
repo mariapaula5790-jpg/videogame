@@ -20,7 +20,7 @@ h1, h2, .logo{
 
 a {
     text-decoration: none;
-    color:#8F4818;
+    color: #FFFBF1;
 }
 
 .container {
@@ -30,3 +30,34 @@ a {
     margin-right: auto;
 }
 
+.site-header .container {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.site-header {
+    padding: 1rem 0;
+    background-color: #60192D;
+    border-bottom: 1px solid #60192D;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: #FFFBF1;
+}
+
+.main-nav ul {
+    display:flex;
+    list-style: none;
+}
+
+.main-nav li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.main-nav a{
+    font-weight: 800;
+}
